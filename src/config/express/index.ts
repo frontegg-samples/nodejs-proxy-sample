@@ -5,7 +5,7 @@ import { FronteggPermissions } from '../../permissions';
 
 export default (app: Express) => {
   app.use(
-    '/account',
+    '/frontegg',
     frontegg({
       clientId: FronteggContext.getContext().FRONTEGG_CLIENT_ID,
       apiKey: FronteggContext.getContext().FRONTEGG_API_KEY,
